@@ -154,6 +154,7 @@
     <None Include="Properties\PublishProfiles\ENWAssistPOC - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\ENWAssistPOC - Web Deploy.pubxml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <None Include="Properties\PublishProfiles\utility-support-bot - Web Deploy.pubxml" />
     <None Include="Service References\OutageServiceReference\outageservice.disco" />
     <None Include="Service References\OutageServiceReference\configuration91.svcinfo" />
     <None Include="Service References\OutageServiceReference\configuration.svcinfo" />
@@ -170,13 +171,11 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
-    <Compile Include="Dialogs\FAQDialog.cs" />
     <Compile Include="Dialogs\GlobalDialog.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\FaultReport.cs" />
-    <Compile Include="Models\OutageServiceResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\OutageServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>

@@ -81,11 +81,9 @@ D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-sup
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.ApplicationInsights.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.Bot.Builder.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.Bot.Connector.xml
-D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.WindowsAzure.Configuration.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Newtonsoft.Json.xml
-D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\System.IdentityModel.Tokens.Jwt.pdb
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\System.IdentityModel.Tokens.Jwt.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\System.Net.Http.Formatting.xml
 D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\System.Web.Http.xml
@@ -155,3 +153,4 @@ D:\Projects\TechDaysOnline\Gary\Location Control Demo\utility-support-bot\utilit
 D:\Projects\TechDaysOnline\Gary\Location Control Demo\utility-support-bot\utility-support-bot\obj\Debug\utility-support-bot.csprojResolveAssemblyReference.cache
 D:\Projects\TechDaysOnline\Gary\Location Control Demo\utility-support-bot\utility-support-bot\obj\Debug\UtilitySupportBot.dll
 D:\Projects\TechDaysOnline\Gary\Location Control Demo\utility-support-bot\utility-support-bot\obj\Debug\UtilitySupportBot.pdb
+D:\Projects\TechDaysOnline\Gary\AppInsights Demo\utility-support-bot\utility-support-bot\bin\Microsoft.Bot.Builder.Location.dll

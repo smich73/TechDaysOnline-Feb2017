@@ -9,6 +9,8 @@ using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
 using Microsoft.Bot.Builder.Dialogs;
 using UtilitySupportBot.Dialogs;
+using Microsoft.ApplicationInsights;
+using System.Collections.Generic;
 
 namespace UtilitySupportBot
 {
@@ -71,7 +73,7 @@ namespace UtilitySupportBot
                 if(message.MembersAdded.Where(m => m.Id == message.Recipient.Id).Any())
                 {
                     var connector = new ConnectorClient(new Uri(message.ServiceUrl));
-                    var replyMessage = message.CreateReply("Hi! I am the ENW Assist Bot. I can help you do things like report a power cut, find your supplier, check current faults or get answers to common questions. If you need anything then just ask!");
+                    var replyMessage = message.CreateReply("Hi! I am the Energy Ltd Support Bot. I can help you do things like report a power cut, find your supplier, check current faults or get answers to common questions. If you need anything then just ask!");
                     connector.Conversations.ReplyToActivityAsync(replyMessage);
                 }
             }

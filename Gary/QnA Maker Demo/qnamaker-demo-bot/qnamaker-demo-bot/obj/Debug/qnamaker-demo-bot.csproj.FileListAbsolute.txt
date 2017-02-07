@@ -39,3 +39,44 @@ D:\Projects\TechDaysOnline\Gary\qnamaker-demo-bot\qnamaker-demo-bot\bin\zh-hans\
 D:\Projects\TechDaysOnline\Gary\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\qnamaker-demo-bot.csprojResolveAssemblyReference.cache
 D:\Projects\TechDaysOnline\Gary\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\EnwAssistBot.dll
 D:\Projects\TechDaysOnline\Gary\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\EnwAssistBot.pdb
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\EnwAssistBot.dll.config
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\EnwAssistBot.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\EnwAssistBot.pdb
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Autofac.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Chronic.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.Bot.Builder.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.Bot.Connector.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Newtonsoft.Json.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\QnAMakerDialog.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Net.Http.Formatting.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Web.Http.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Web.Http.WebHost.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Autofac.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.Bot.Builder.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.Bot.Connector.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\Newtonsoft.Json.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Net.Http.Formatting.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Web.Http.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\System.Web.Http.WebHost.xml
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\qnamaker-demo-bot.csprojResolveAssemblyReference.cache
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\EnwAssistBot.dll
+D:\Projects\TechDaysOnline\Gary\QnA Maker Demo\qnamaker-demo-bot\qnamaker-demo-bot\obj\Debug\EnwAssistBot.pdb
