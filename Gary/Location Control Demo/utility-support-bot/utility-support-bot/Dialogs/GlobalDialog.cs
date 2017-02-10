@@ -28,8 +28,12 @@ namespace UtilitySupportBot.Dialogs
         public async Task CheckCurrentIncidents(IDialogContext context, LuisResult result)
         {
             var apiKey = WebConfigurationManager.AppSettings["BingMapsApiKey"];
+
             var prompt = "To check for current incidents I will just need your post code.";
-            var locationDialog = new LocationDialog(apiKey, context.Activity.ChannelId, prompt, LocationOptions.None, LocationRequiredFields.PostalCode);
+
+            var locationDialog = new LocationDialog(apiKey, context.Activity.ChannelId, prompt, 
+                LocationOptions.UseNativeControl, LocationRequiredFields.PostalCode, new LocationDialogResourceManager());
+
             context.Call(locationDialog, AfterLocationCollected);
         }
 
