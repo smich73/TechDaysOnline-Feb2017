@@ -26,26 +26,28 @@ namespace ResumptionCookieDemo.Controllers
         {
             // For demonstration - read the cookie from disk.  For a real application
             // read from your persistent store - e.g. blob storage, table storage, document db, etc
-            var resumeJson = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath("~/cookie.json"));
+            var filepath = System.Web.Hosting.HostingEnvironment.MapPath("~/cookie.json");
+            if (File.Exists(filepath))
+            {
+                var resumeJson = File.ReadAllText(filepath);
 
-            dynamic resumeData = JsonConvert.DeserializeObject(resumeJson);
-            string botId = resumeData.botId;
-            string channelId = resumeData.channelId;
-            string userId = resumeData.userId;
-            string conversationId = resumeData.conversationId;
-            string serviceUrl = resumeData.serviceUrl;
-            string userName = resumeData.userName;
-            bool isGroup = resumeData.isGroup;
-            var resume = new ResumptionCookie(userId, botId, conversationId, channelId, serviceUrl, "en");
+                dynamic resumeData = JsonConvert.DeserializeObject(resumeJson);
 
-            var messageactivity = (Activity)resume.GetMessage();
-            var reply = messageactivity.CreateReply();
-            reply.Text = $"Proactive message: {message.Text}";
-            var client = new ConnectorClient(new Uri(messageactivity.ServiceUrl));
-            await client.Conversations.ReplyToActivityAsync(reply);
+                // this is the key bit, we are creating a resumption cookie then using it to create a reply
+                var resume = new ResumptionCookie(resumeData.userId, resumeData.botId, resumeData.conversationId, resumeData.channelId, resumeData.serviceUrl, "en");
 
-            var response = Request.CreateResponse(HttpStatusCode.OK);
-            return response;
+                var messageactivity = (Activity)resume.GetMessage();
+                var reply = messageactivity.CreateReply();
+                reply.Text = $"{message.Text}";
+                var client = new ConnectorClient(new Uri(messageactivity.ServiceUrl));
+                await client.Conversations.ReplyToActivityAsync(reply);
+
+                return Request.CreateResponse(HttpStatusCode.OK);
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest);
+            }
         }
     }
 

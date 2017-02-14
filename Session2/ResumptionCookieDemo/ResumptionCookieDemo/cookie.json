@@ -1,9 +1,10 @@
 {
-  "userId": "2c1c7fa3",
-  "userName": "User1",
+  "userId": "default-user",
+  "userName": "User",
   "channelId": "emulator",
-  "botId": "56800324",
-  "serviceUrl": "http://localhost:9000/",
+  "botId": "m2dj1e49h9b27b443",
+  "serviceUrl": "http://localhost:25282",
   "isGroup": false,
-  "conversationId": "8a684db5"
+  "conversationId": "6e6ean42b5g04659mc",
+  "locale": "en-GB"
 }

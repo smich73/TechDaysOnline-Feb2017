@@ -21,7 +21,10 @@ namespace ResumptionCookieDemo
             
             // For demonstration - save the cookie to disk.  For a real application
             // save to your persistent store - e.g. blob storage, table storage, document db, etc
+
             File.WriteAllText(System.Web.Hosting.HostingEnvironment.MapPath("~/cookie.json"), data);
+            File.WriteAllText(System.Web.Hosting.HostingEnvironment.MapPath("~/lastmessage.json"), activity.Text);
+
 
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
