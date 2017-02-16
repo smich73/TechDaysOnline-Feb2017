@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResumptionCookieDemo", "Res
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA8ABEDD-1B21-4C83-8C10-015BCFD667EE}"
 	ProjectSection(SolutionItems) = preProject
-		outlook-add-in-javascript-moduleextension.xml = outlook-add-in-javascript-moduleextension.xml
+		CURL.txt = CURL.txt
 	EndProjectSection
 EndProject
 Global

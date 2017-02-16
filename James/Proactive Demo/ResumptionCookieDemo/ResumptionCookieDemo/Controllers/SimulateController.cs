@@ -34,7 +34,13 @@ namespace ResumptionCookieDemo.Controllers
                 dynamic resumeData = JsonConvert.DeserializeObject(resumeJson);
 
                 // this is the key bit, we are creating a resumption cookie then using it to create a reply
-                var resume = new ResumptionCookie(resumeData.userId, resumeData.botId, resumeData.conversationId, resumeData.channelId, resumeData.serviceUrl, "en");
+                var resume = new ResumptionCookie(
+                    (string)resumeData.userId, 
+                    (string)resumeData.botId, 
+                    (string)resumeData.conversationId, 
+                    (string)resumeData.channelId,
+                    (string)resumeData.serviceUrl,
+                    "en");
 
                 var messageactivity = (Activity)resume.GetMessage();
                 var reply = messageactivity.CreateReply();

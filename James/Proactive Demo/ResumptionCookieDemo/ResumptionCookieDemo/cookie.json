@@ -2,9 +2,9 @@
   "userId": "default-user",
   "userName": "User",
   "channelId": "emulator",
-  "botId": "m2dj1e49h9b27b443",
-  "serviceUrl": "http://localhost:25282",
+  "botId": "default-bot",
+  "serviceUrl": "http://localhost:6381",
   "isGroup": false,
-  "conversationId": "6e6ean42b5g04659mc",
+  "conversationId": "ni12jc1943i1l6kci",
   "locale": "en-GB"
 }
