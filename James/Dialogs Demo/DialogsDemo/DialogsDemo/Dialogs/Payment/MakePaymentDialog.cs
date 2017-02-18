@@ -11,10 +11,12 @@ namespace DialogsDemo.Dialogs.Payment
         protected string payee;
         protected string amount;
 
+        // Entry point to the Dialog
         public async Task StartAsync(IDialogContext context)
         {
             await context.PostAsync($"Who would you like to pay?");
 
+            // State transition - wait for 'payee' message from user
             context.Wait(MessageReceivedPayee);
         }
         
@@ -25,6 +27,7 @@ namespace DialogsDemo.Dialogs.Payment
 
             await context.PostAsync($"{this.payee}, got it{Environment.NewLine}How much should I pay?");
 
+            // State transition - wait for 'amount' message from user
             context.Wait(MessageReceivedAmount);
         }
 
@@ -33,8 +36,9 @@ namespace DialogsDemo.Dialogs.Payment
             var message = await argument;
             this.amount = message.Text;
 
-            await context.PostAsync($"Thank you, I've paid {this.amount} to {this.payee}");
+            await context.PostAsync($"Thank you, I've paid {this.amount} to {this.payee} 💸");
 
+            // State transition - complete this Dialog and remove it from the stack
             context.Done<object>(new object());
         }
     }
