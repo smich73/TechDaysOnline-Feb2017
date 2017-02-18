@@ -1,13 +1,9 @@
-﻿using Microsoft.Bot.Builder.Dialogs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Threading.Tasks;
-using Microsoft.Bot.Connector;
-using DialogsDemo.Dialogs.Payment;
-using DialogsDemo.Dialogs.Balance.Current;
+﻿using DialogsDemo.Dialogs.Balance.Current;
 using DialogsDemo.Dialogs.Balance.Savings;
+using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Connector;
+using System;
+using System.Threading.Tasks;
 
 namespace DialogsDemo.Dialogs.Balance
 {
