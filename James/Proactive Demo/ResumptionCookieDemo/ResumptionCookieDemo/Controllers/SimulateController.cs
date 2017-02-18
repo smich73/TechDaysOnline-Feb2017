@@ -10,8 +10,6 @@ using System.Web.Http;
 
 namespace ResumptionCookieDemo.Controllers
 {
-    // Credit: Robin Osborne
-    // http://robinosborne.co.uk/2017/01/02/sending-proactive-botframework-messages
     public class SimulateController : ApiController
     {
         // This HTTP Endpoint simulates a long running Proactive callback.  Use a HTTP client to simulate:
@@ -22,6 +20,9 @@ namespace ResumptionCookieDemo.Controllers
         // { "Text" :"this is a proactive message!" }
         //
         // in reality, this code may be initiated by an event, a long running background task, or a schedule
+        //
+        // Credit: Robin Osborne
+        // http://robinosborne.co.uk/2017/01/02/sending-proactive-botframework-messages
         public async Task<HttpResponseMessage> Post([FromBody] ProactiveMessage message)
         {
             // For demonstration - read the cookie from disk.  For a real application
