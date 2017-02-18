@@ -22,21 +22,21 @@ namespace LuisDemo.Dialogs
             // - The original query (the users message)
             var room = (from entity in result.Entities where entity.Type == "room" select entity).FirstOrDefault();
 
-            await context.PostAsync($"Turning the {(room != null ? room.Entity : string.Empty)} lights on ...");
+            await context.PostAsync($"Turning the {(room != null ? room.Entity : string.Empty)} lights on ... 💡");
             context.Wait(MessageReceived);
         }
 
         [LuisIntent("turnlightsoff")]
         public async Task IntentTurnLightsOff(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"Turning the lights off ...");
+            await context.PostAsync($"Turning the lights off ... 💡");
             context.Wait(MessageReceived);
         }
 
         [LuisIntent("settemperature")]
         public async Task IntentSetTemperature(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"Setting the temperature ...");
+            await context.PostAsync($"Setting the temperature ... 🔥🌡☀🌶");
             context.Wait(MessageReceived);
         }
 
@@ -45,14 +45,14 @@ namespace LuisDemo.Dialogs
         [LuisIntent("closegaragedoor")]
         public async Task IntentCloseGarageDoor(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"Closing the garage door ...");
+            await context.PostAsync($"Closing the garage door ... 🚗");
             context.Wait(MessageReceived);
         }
 
         [LuisIntent("")]
         public async Task IntentNone(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync("Sorry, I don't know what you mean");
+            await context.PostAsync("Sorry, I don't know what you mean 😕");
             context.Wait(MessageReceived);
         }
     }
