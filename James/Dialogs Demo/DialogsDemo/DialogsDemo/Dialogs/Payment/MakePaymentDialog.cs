@@ -14,7 +14,7 @@ namespace DialogsDemo.Dialogs.Payment
         // Entry point to the Dialog
         public async Task StartAsync(IDialogContext context)
         {
-            await context.PostAsync($"Who would you like to pay?");
+            await context.PostAsync($"[MakePaymentDialog] Who would you like to pay?");
 
             // State transition - wait for 'payee' message from user
             context.Wait(MessageReceivedPayee);
@@ -25,7 +25,7 @@ namespace DialogsDemo.Dialogs.Payment
             var message = await argument;
             this.payee = message.Text;
 
-            await context.PostAsync($"{this.payee}, got it{Environment.NewLine}How much should I pay?");
+            await context.PostAsync($"[MakePaymentDialog] {this.payee}, got it{Environment.NewLine}How much should I pay?");
 
             // State transition - wait for 'amount' message from user
             context.Wait(MessageReceivedAmount);
@@ -36,7 +36,7 @@ namespace DialogsDemo.Dialogs.Payment
             var message = await argument;
             this.amount = message.Text;
 
-            await context.PostAsync($"Thank you, I've paid {this.amount} to {this.payee} 💸");
+            await context.PostAsync($"[MakePaymentDialog] Thank you, I've paid {this.amount} to {this.payee} 💸");
 
             // State transition - complete this Dialog and remove it from the stack
             context.Done<object>(new object());

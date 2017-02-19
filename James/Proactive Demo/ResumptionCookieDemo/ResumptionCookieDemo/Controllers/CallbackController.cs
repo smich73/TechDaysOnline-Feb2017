@@ -10,11 +10,11 @@ using System.Web.Http;
 
 namespace ResumptionCookieDemo.Controllers
 {
-    public class SimulateController : ApiController
+    public class CallbackController : ApiController
     {
         // This HTTP Endpoint simulates a long running Proactive callback.  Use a HTTP client to simulate:
         // 
-        // POST http://localhost:3979/api/simulate
+        // POST http://localhost:3979/api/callback
         // Content-Type: application/json
         // 
         // { "Text" :"this is a proactive message!" }

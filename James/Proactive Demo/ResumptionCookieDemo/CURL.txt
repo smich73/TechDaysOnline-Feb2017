@@ -1,1 +1,1 @@
-curl -X POST -H 'Content-Type: application/json' --data '{ "Text" :"hello from background service" }' http://localhost:3979/api/simulate
+curl -X POST -H 'Content-Type: application/json' --data '{ "Text" :"the problem with the website is fixed" }' http://localhost:3979/api/callback
