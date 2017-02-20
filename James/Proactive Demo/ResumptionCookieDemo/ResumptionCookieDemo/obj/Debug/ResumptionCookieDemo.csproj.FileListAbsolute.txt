@@ -112,6 +112,5 @@ C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookie
 C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\bin\ja\Microsoft.Bot.Builder.resources.dll
 C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\bin\ru\Microsoft.Bot.Builder.resources.dll
 C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
-C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\obj\Debug\ResumptionCookieDemo.csprojResolveAssemblyReference.cache
 C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\obj\Debug\Bot Application1.dll
 C:\tdo\TechDaysOnline\James\Proactive Demo\ResumptionCookieDemo\ResumptionCookieDemo\obj\Debug\Bot Application1.pdb
