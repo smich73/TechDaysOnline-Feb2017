@@ -15,15 +15,6 @@ namespace UtilitySupportBot.Dialogs
     [Serializable]
     public class GlobalDialog : LuisDialog<object>
     {
-        [LuisIntent("ReportFault")]
-        public async Task ReportFault(IDialogContext context, LuisResult result)
-        {
-            var faultForm = new FormDialog<FaultReport>(new FaultReport(),
-                FaultReport.BuildForm, FormOptions.PromptInStart);
-
-            context.Call(faultForm, AfterFaultReportForm);
-        }
-
         [LuisIntent("CheckCurrentIncidents")]
         public async Task CheckCurrentIncidents(IDialogContext context, LuisResult result)
         {
@@ -35,6 +26,15 @@ namespace UtilitySupportBot.Dialogs
                 LocationOptions.UseNativeControl, LocationRequiredFields.PostalCode, new LocationDialogResourceManager());
 
             context.Call(locationDialog, AfterLocationCollected);
+        }
+
+        [LuisIntent("ReportFault")]
+        public async Task ReportFault(IDialogContext context, LuisResult result)
+        {
+            var faultForm = new FormDialog<FaultReport>(new FaultReport(),
+                FaultReport.BuildForm, FormOptions.PromptInStart);
+
+            context.Call(faultForm, AfterFaultReportForm);
         }
 
         private async Task AfterLocationCollected(IDialogContext context, IAwaitable<Place> result)
