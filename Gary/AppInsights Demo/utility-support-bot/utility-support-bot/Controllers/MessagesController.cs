@@ -27,6 +27,14 @@ namespace UtilitySupportBot
             {
                 try
                 {
+                    TelemetryClient telemetry = new TelemetryClient();
+
+                    var properties = new Dictionary<string, string>();
+                    properties.Add("Channel", activity.ChannelId);
+                    properties.Add("Locale", activity.Locale);
+
+                    telemetry.TrackEvent("MessageReceived", properties);
+
                     await SendTypingActivity(activity);
                     await Conversation.SendAsync(activity, MakeRoot);
                 }
