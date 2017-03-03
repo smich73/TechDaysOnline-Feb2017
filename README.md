@@ -18,6 +18,7 @@ https://channel9.msdn.com/events/TechDaysOnline/MVP-Led-TechDays-Online-February
 
 
 Other Microsoft Bot framework and Cognitive resources (samples, tutorials, case studies) can be found at:
+
 aka.ms/botresources
 
 
